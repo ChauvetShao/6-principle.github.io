@@ -188,6 +188,10 @@ svg.icon {
     color: var(--color-white)
 }
 
+.principle-number.clickable:hover {
+    color: var(--color-black)
+}
+
 .principle-number.clickable svg {
     transition: all .3s;
     stroke: var(--color-gray);

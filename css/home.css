@@ -344,9 +344,20 @@
 /* 网格视图-数字文字样式 */
 .page-home .grid-view .p-item .number {
     font-size: var(--text-xl);
-    color: transparent;
+    color: var(--color-white);
     stroke: var(--color-gray);
+    transition: all .3s;
 }
+.page-home .grid-view .p-item:hover  {
+    .number svg{
+        color: var(--color-black);
+    }
+    .title{
+        color: var(--color-black);
+        font-weight: 900;
+    }
+}
+
 
 .page-home .grid-view .p-item .number svg {
     height: 2em;
